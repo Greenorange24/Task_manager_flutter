@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:task_manager/basic_dismissible_example.dart';
 import 'package:task_manager/basic_reorderable_example.dart';
 import 'package:task_manager/dismissible_with_confirm.dart';
+import 'package:task_manager/labass.dart';
 import 'package:task_manager/reorderable_builder_example.dart';
 import 'package:task_manager/reorderable_dismissible.dart';
 import 'package:task_manager/two_way_dismissible.dart';
@@ -26,7 +27,7 @@ class TaskManagerApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const ReorderableDismissibleList(),
+      home: const SongRankingList(),
     );
   }
 }
